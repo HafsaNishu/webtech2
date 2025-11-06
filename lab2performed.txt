@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form>
+
+<fieldset>
+<legend>Personal Details</legend>
+<label for="fname">First Name :</label>
+<input type="text" id= "fname" name="fname" ><br>
+<label for="lname">Last Name :</label>
+<input type="text" id= "lname" name="lname" ><br>
+<label for= "gender">Gender :</label>
+<input type ="radio" id="male" name="gender" value ="male">
+<label for= "male" >Male</label>
+<input type ="radio" id="female" name="gender" value ="female">
+<label for= "female" >Female</label><br>
+<label for= "language">Language :</label>
+<input type ="checkbox" id="ban" name="language" value ="bangla">
+<label for= "ban" >Bangla</label>
+<input type ="checkbox" id="eng" name="language" value ="english">
+<label for= "eng" >English</label><br>
+<label for= "dob">Date of Birth : </label>
+<input type= "date" id="dob" name ="dob" ><br>
+<label for= "col">Required Color : </label>
+<input type= "color" id="col" name ="col" >
+</fieldset>
+
+<fieldset>
+<legend> Contact Details:</legend>
+<label for="con">Country :</label>
+<select id="con" name="country">
+<option value="aus">Australia</option>
+<option value="ban">Bangladesh</option>
+<option value="can">Canada</option>
+<option value="mala">Malaysia</option>
+<option value="eng">England</option>
+<option value="ita">Italy</option>
+<option value="den">Denmark</option>
+<option value="thai">Thailand</option>
+</select><br>
+<label for="state">State :</label>
+<input type="text" id="state" name="state"><br>
+<label for="add">Address :</label>
+<input type="text" id="add" name="address"><br>
+</fieldset>
+
+<fieldset>
+<legend>Contact Details(Digital):</legend>
+<label for="email">Email :</label>
+<input type="email" id= "email" name="email" ><br>
+<label for="phone">Phone :</label>
+<select id="phone" name="country">
+<option value="aus">+00</option>
+<option value="ban">+880</option>
+<option value="can">966</option>
+<option value="mala">654</option>
+<option value="eng">555</option>
+<option value="ita">+22</option>
+<option value="den">555</option>
+<option value="thai">+899</option>
+</select>
+<input type="number" id= "phone" name="phone" ><br>
+</fieldset>
+
+<fieldset>
+<legend>Bio</legend>
+<p>Write something about yourself:</p>
+<textarea rows="8" cols="60"></textarea>
+</fieldset>
+
+<input type= "submit" value="Register">
+
+</form>
+</body>
+</html>
